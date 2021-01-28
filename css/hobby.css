@@ -50,9 +50,41 @@ ul li a:hover{
 
 .left-container{
     width: 40%;
-    height: 200px;
-    background-color: #FFFF00;
+    height: 550px;
     margin-left: 10%;
+}
+
+.read{
+    width: 80%;
+    height: 200px;
+    margin-left: 54px;
+    margin-top: 20px;
+    background-image: url(../images/book.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.football-music{
+    display: flex;
+}
+.football{
+    width: 47%;
+    height: 180px;
+    margin-top: 80px;
+    background-image: url(../images/football.jpg);
+    background-position: center;
+    background-size: cover
+}
+
+.music{
+    width: 47%;
+    height: 180px;
+    background-color: #255dc5;
+    margin-top: 80px;
+    margin-left: 32px;
+    background-image: url(../images/music.jpg);
+    background-position: center;
+    background-size: cover
 }
 
 .right-container{
