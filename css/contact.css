@@ -1,0 +1,270 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    padding: 50px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-left: 28px;
+    margin-right: 20px;
+}
+
+ul{
+    list-style-type: none;
+    float: right;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color:#ffffff;
+    padding: 10px 15px;
+    font-size: 25px;
+    transition: 0.3s ease;
+    font-family: sans-serif;
+}
+
+ul li a:hover{
+    background-color: rgb(255,69,0,0.9);
+    color:rgb(255, 255, 255,0.9);
+    border-radius: 10px;
+}
+
+
+body{
+	margin:0px;
+	padding: 0px;
+    background-image: url(../images/bg4.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+a{
+	text-decoration:none;
+} 
+.social a{
+	padding: 20px;
+	color:#ffffff;
+	font-size:1.1rem;
+}
+#contact{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+    border-radius: 3%;
+}
+.social{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: none;
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+}
+.social a:hover{
+	color:#000000;
+	transition: all ease 0.3s;
+}
+.contact-box{
+    background-color:rgba(46, 47, 47, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px;
+    box-shadow: 2px 0px 30px rgba(0,0,0,0.1);
+    border-radius: 7px;
+}
+.c-heading h1{
+	font-family: Roboto;
+	color: #e7eef3;
+	font-size: 2.5rem;
+	font-weight: lighter;
+	margin: 0px;
+	padding: 0px;
+}
+.c-heading p{
+	font-family: Roboto;
+	color:#cecece;
+	font-size: 0.8rem;
+	font-weight: lighter;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.c-inputs{
+	margin: 0px 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+}
+.c-inputs input{
+	width:250px;
+	height: 45px;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid rgba(251,251,251,0.1);
+	outline: none;
+	margin: 10px 0px;
+	padding: 10px;
+	box-sizing: border-box;
+	color: #f4f4f4;
+	display: flex;
+}
+.c-inputs textarea{
+	width:250px;
+	height: 200px;
+	outline: none;
+	background-color: transparent;
+	border:1px solid rgba(82,82,82,1);
+	color: #f4f4f4;
+	padding: 10px;
+	font-size: 1.2rem;
+	box-sizing: border-box;
+}
+.c-inputs ::placeholder{
+    color: rgb(255, 255, 255,0.7);
+}
+.c-inputs button{
+	width:200px;
+	height: 40px;
+	background-color: #FFFFFF;
+	border: none;
+	outline: none;
+	margin-top: 20px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-left: 8%;
+}
+.c-inputs input:focus{
+	border-bottom: 1px solid rgba(252,252,252,1.00);
+	transition: all ease 0.5s;
+}
+.c-inputs textarea:focus{
+	border: none;
+	border-bottom: 1px solid rgba(255,255,255,1.00);
+	transition: all ease 0.5s;
+	background-color: rgba(0,0,0,0.1);
+}
+.c-inputs button:active{
+	transform: scale(1.02);
+}
+.map{
+	filter: grayscale(0.2);
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+	border: 2px solid #FFFFFF;
+}
+
+footer{
+    background-color: rgba(49, 48, 48, 0.8);
+    width: 100%;
+    height: 260px;
+    margin-top: 680px;
+    border-radius: 5px;
+}
+
+.app{
+   
+    margin-top: 20px;
+    margin-bottom:20px ;
+}
+
+.fa-skype {
+    background: #00aff0;
+    color: white;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 10%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.sky{
+      border-radius: 20px;
+      background:#E6E6FA;
+      color:#2F4F4F;
+      height: 40px;
+      width: 220px;
+      font-size: 20px;
+}
+.sky:hover{
+      cursor: pointer;
+      background:	#C71585;
+      color:#FFFF00;
+}
+.text1{
+      margin-left: 60px;
+}
+
+.footer-home{
+    display: flex;
+}
+
+.address{
+    margin-left: 30px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(255, 255, 255,0.7);
+    align-items: center;
+}
+.information{
+    margin-left: 100px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(255, 255, 255,0.7);
+}
+.copyright{
+    padding-top: 10px;
+    font-weight: 500;
+    opacity: 0.8;
+    font-size: 16px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.company{
+    margin-left: 110px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(255, 255, 255,0.7);
+}
+
+.location{
+    margin-left: 38px;
+}
